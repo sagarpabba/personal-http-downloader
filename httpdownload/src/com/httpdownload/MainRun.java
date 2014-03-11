@@ -79,13 +79,13 @@ public class MainRun {
 		            // you'll get this exception. this will report  
 		            // an error message.  
 		            System.err.println(e.getMessage());  
-		            System.err.println("java -jar PAFDownloader.jar [options...] arguments...");  
+		            System.err.println("PAFDownloader.exe [options...] arguments...");  
 		            // print the list of available options  
 		            parser.printUsage(System.err);  
 		            System.err.println();  
 		  
 		            // print option sample. This is useful some time  
-		            System.err.println(" Example: java -jar PAFDownloader.jar "+parser.printExample(ALL));  	  
+		            System.err.println(" Example:PAFDownloader.exe "+parser.printExample(ALL));  	  
 		            return;  
 	        } 
 	        
